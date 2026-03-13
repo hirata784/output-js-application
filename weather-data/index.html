@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>天気データ取得アプリ</title>
+    </head>
+    <body>
+        <div class="weather">
+            <header>天気データ取得アプリ</header>
+            <div class="content">
+                <p>都市名を入力してください</p>
+                <select id="city-name">
+                    <option value="">選択してください</option>
+                </select>
+                <button id="btn">天気取得</button>
+                <p id="result"></p>
+                <div id="loading">データを読み込み中です…</div>
+                <div id="error">エラーが発生しました。</div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
