@@ -3,6 +3,16 @@
 - 学習内容：JavaScript
 - 作成時期：2026年3月
 
+# retrieve-user-list(ユーザー一覧取得アプリ)
+
+- 練習テーマ：Promise / fetch / map / 非同期データ表示
+
+・ユーザーの名前とメールアドレスを表示する。  
+・「ユーザー取得」ボタンを押すと、各ユーザーの名前とメールアドレスを取得することが出来る。
+
+・JSONPlaceholder のAPIを使用。  
+10人の架空のユーザー情報をJSON形式で取得できるエンドポイントのこと。
+
 # weather-data(天気データ取得アプリ)
 
 - 練習テーマ：async・await / fetch / JSON処理 / try・catch

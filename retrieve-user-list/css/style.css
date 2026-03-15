@@ -1,0 +1,31 @@
+html {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #6d352c;
+    padding: 10px;
+    color: #fff;
+}
+
+.content {
+    background-color: #efa54b;
+    padding: 10px;
+}
+
+#btn {
+    background-color: #dd5a0f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    background-color: #fff2c1;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
